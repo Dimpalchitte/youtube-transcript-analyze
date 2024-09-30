@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YouTube Transcript Analyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>YouTube Transcript Analyzer</h1>
+
+    <form id="transcriptForm">
+        <label for="url">YouTube Video URL:</label>
+        <input type="text" id="url" name="url" required>
+        <button type="submit">Get Transcript</button>
+    </form>
+
+    <div id="transcriptSection">
+        <h2>Transcript</h2>
+        <p id="transcript"></p>
+    </div>
+
+    <button id="summarizeBtn" style="display:none;">Summarize Transcript</button>
+    <p id="summary"></p>
+
+    <button id="sentimentBtn" style="display:none;">Analyze Sentiment</button>
+    <p id="sentiment"></p>
+
+    <button id="keywordBtn" style="display:none;">Extract Keywords</button>
+    <p id="keywords"></p>
+
+    <form id="askQuestionForm">
+        <label for="question">Ask a Question:</label>
+        <input type="text" id="question" name="question" required>
+        <button type="submit">Get Answer</button>
+    </form>
+    <p id="answer"></p>
+
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+install Nvida CUDA (nvcc --version)
+ install rust and visual studio 2022
+install Miniconda
+
+[conda create -n myenv python=3.12
+ conda init powershell
+ open new tab :- conda activate myenv]
+
+then check nvcc --version [ask chatgpt to Install PyTorch with CUDA 'past nvcc --version']
+
+
+use this commad to check the python executable path (python -c "import sys; print(sys.executable)") eg:- C:\Users\yadav\miniconda3\envs\myenv\python.exe
+
+then run like this :- C:\Users\yadav\miniconda3\envs\myenv\python.exe HuggingModelsDD.py

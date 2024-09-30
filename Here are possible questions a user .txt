@@ -1,0 +1,87 @@
+Here are possible questions a user might ask about a YouTube video:
+
+1. What is this video about?
+2. What can I learn from this video?
+3. Is this video suitable for beginners?
+4. What topics are covered in this video?
+5. How long is the video?
+6. Is there a summary of the video?
+7. What skills will I gain from watching this video?
+8. Does the video include real-world examples?
+9. What is the difficulty level of the video content?
+10. Is this video a tutorial or just an explanation?
+11. Are there any prerequisites to understand this video?
+12. Does the video provide a step-by-step guide?
+13. Who is the target audience for this video?
+14. Does the video include any downloadable resources?
+15. What tools or software do I need to follow this video?
+16. Is the video up-to-date with the latest information?
+17. Who is the creator of the video?
+18. Are there any timestamps or chapters in the video?
+19. Does the video have subtitles or closed captions?
+20. Is this part of a series or a standalone video?
+21. What are the key takeaways from the video?
+22. Can I watch this video offline?
+23. Does the video have a project or homework to follow along?
+24. Is the video interactive or just informational?
+25. Are there any quizzes or tests in the video?
+26. What languages is the video available in?
+27. Can I ask questions in the video’s comments section?
+28. Does the video explain theory or practical application?
+29. Are there any supplementary videos recommended to watch after this?
+30. What is the video's rating or feedback from other viewers?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+the code is now able to give the answer properly when user click on Summarize Transcript this is code give Summary: An operating system is a system software that acts as an interface between the user and the computer hardware and controls the execution of all kinds of program. An operating system must be user-friendly, fast and secure and must give maximum output with minimum input. If you have any queries comment them down below and share the video with your friends. but this is also show this  If you have any queries comment them down below and share the video with your friends. i want i shloud under stand and then it shloud give then answers like example chatgpt  and when user click this 2 buttton Extract Keywords , Get Answer show this in cmd output (myenv) C:\Users\yadav\OneDrive\Desktop\Love Poject\youtube-transcript-analyze\app>C:\Users\yadav\miniconda3\envs\myenv\python.exe main.py
+Hardware accelerator e.g. GPU is available in the environment, but no device argument is passed to the Pipeline object. Model will be on CPU.
+Hardware accelerator e.g. GPU is available in the environment, but no device argument is passed to the Pipeline object. Model will be on CPU.
+ * Serving Flask app 'main'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+Hardware accelerator e.g. GPU is available in the environment, but no device argument is passed to the Pipeline object. Model will be on CPU.
+Hardware accelerator e.g. GPU is available in the environment, but no device argument is passed to the Pipeline object. Model will be on CPU.
+ * Debugger is active!
+ * Debugger PIN: 867-520-562
+127.0.0.1 - - [06/Sep/2024 23:23:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2024 23:23:52] "GET /static/styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [06/Sep/2024 23:23:52] "GET /static/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [06/Sep/2024 23:24:25] "POST /transcript HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2024 23:24:39] "POST /summarize HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2024 23:25:13] "POST /sentiment HTTP/1.1" 200 -
+Error extracting keywords: tokens() is not available when using non-fast tokenizers (e.g. instance of a XxxTokenizerFast class).
+127.0.0.1 - - [06/Sep/2024 23:25:17] "POST /keywords HTTP/1.1" 500 -
+Error answering question: name 'transcript' is not defined
+127.0.0.1 - - [06/Sep/2024 23:25:27] "POST /answer HTTP/1.1" 500 -
+Error answering question: name 'transcript' is not defined
+127.0.0.1 - - [06/Sep/2024 23:28:47] "POST /answer HTTP/1.1" 500 - and when user ask the Question code is not give the answer i want i shloud under stant the video the give the answers properly and this is a console log O Failed to load resource: the server responded with a status of 5øø
+O Error: Error: response was not 0k
+at HTMLButtonE1ement.<anonymous> (app. is: 78: 41)
+O Failed to load resource: the server responded
+with a status of 5B
+O Error: Error: Network response was not 0k
+at (app.2is : 99 :41)
+O Failed to load resource: the server responded
+with a status of 5øø
+O Error: Error: response was not 0k
+at HTMLFormE1ement.<anonymous> (appxjs : 99 :41)
+(INTERNAL SERVER ERROR)
+(INTERNAL SERVER ERROR)
+(INTERNAL SERVER ERROR)
+: 500Ø/answer:1 @
+app=is : 104
+: 500Ø/answer:1 @ update the code and fix it i thing i shloud work what i accpected update the code that can work properly and write fulll code 100%
